@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-smilix-bg: #F7F6F1;
+  --color-smilix-dark: #25231F;
+  --color-smilix-cream: #FFFCEB;
+  --color-smilix-yellow: #FFF99A;
+  --color-smilix-blue: #AFCBE8;
+  --color-smilix-pink: #F4C8D9;
+  --color-smilix-green: #AFC4B7;
+  --color-smilix-white: #FFFFFF;
+
+  --font-serif: "Playfair Display", "Instrument Serif", Georgia, serif;
+  --font-editorial: "Instrument Serif", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    color: #25231F;
+    background-color: #F7F6F1;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.font-editorial {
+  font-family: "Instrument Serif", "Playfair Display", Georgia, serif;
+}
+
+.font-serif-heading {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle organic grain overlay for editorial tactility */
+.bg-grain {
+  background-image: radial-gradient(rgba(37, 35, 31, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}

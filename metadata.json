@@ -1,0 +1,6 @@
+{
+  "name": "Smilix — Modern Dental Clinic",
+  "description": "Editorial, luxurious, and thoughtful modern dental care. Your Smile, Smarter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
